@@ -2,7 +2,10 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-Icon?
+# O artefato do macOS é "Icon" seguido de carriage return.
+# Não use "Icon?": em disco sem diferenciação de maiúsculas ele engole
+# qualquer pasta chamada "icons".
+Icon[\r]
 
 # ---- Windows ----
 Thumbs.db
