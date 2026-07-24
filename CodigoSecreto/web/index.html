@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Código Secreto</title>
+<meta name="description" content="Clone do Codenames em português, para jogar passando o celular entre os times.">
+
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Código Secreto">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#111114" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f4f4f6" media="(prefers-color-scheme: light)">
+
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div id="app" class="app">
+
+  <header class="topbar">
+    <h1>Código Secreto</h1>
+    <button id="btn-settings" class="icon-btn" aria-label="Ajustes">⚙</button>
+  </header>
+
+  <section class="scoreboard" id="scoreboard">
+    <div class="team-panel" data-team="red">
+      <div class="team-name">🔥 VERMELHO</div>
+      <div class="team-row"><span class="score" id="score-red">0</span><span class="remaining" id="rem-red">9 restam</span></div>
+    </div>
+    <div class="round"><div class="round-label">RODADA</div><div class="round-n" id="round-n">1</div></div>
+    <div class="team-panel" data-team="blue">
+      <div class="team-name">💧 AZUL</div>
+      <div class="team-row"><span class="score" id="score-blue">0</span><span class="remaining" id="rem-blue">8 restam</span></div>
+    </div>
+  </section>
+
+  <main id="phase"><!-- preenchido pelo app.js --></main>
+
+</div>
+
+<!-- Ajustes -->
+<dialog id="settings" class="sheet">
+  <form method="dialog" class="sheet-inner">
+    <h2>Ajustes</h2>
+
+    <label class="field">
+      <span>Pacote de palavras</span>
+      <select id="pack-select"></select>
+    </label>
+    <p class="hint">A troca vale a partir da próxima rodada.</p>
+
+    <div class="sheet-actions">
+      <button type="button" id="btn-next-round" class="btn btn-soft">Nova rodada (mantém o placar)</button>
+      <button type="button" id="btn-reset" class="btn btn-danger">Zerar tudo</button>
+    </div>
+
+    <h3>Como se joga</h3>
+    <ul class="rules">
+      <li>O time que começa tem 9 cartas; o outro, 8. São 7 neutras e 1 bomba.</li>
+      <li>O mestre-espião dá uma palavra + um número. O time arrisca até o número + 1 palpite.</li>
+      <li>Errar para carta neutra ou do adversário encerra o turno.</li>
+      <li>Tocar na bomba entrega a rodada ao adversário na hora.</li>
+      <li>Quem revelar todos os seus agentes primeiro ganha o ponto.</li>
+    </ul>
+
+    <button class="btn btn-primary" value="close">Fechar</button>
+  </form>
+</dialog>
+
+<script src="./app.js"></script>
+</body>
+</html>

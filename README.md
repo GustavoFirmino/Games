@@ -14,7 +14,9 @@ Fique à vontade para olhar o código, clonar, mexer e usar como quiser.
 
 | Jogo | Plataforma | Stack | Status |
 |------|-----------|-------|--------|
-| [Código Secreto](./CodigoSecreto) | iOS / iPadOS | SwiftUI (MVVM) | ✅ Jogável |
+| [Código Secreto](./CodigoSecreto) | Web (PWA) · iOS / iPadOS | HTML/CSS/JS · SwiftUI (MVVM) | ✅ Jogável |
+
+**▶️ [Jogar Código Secreto no navegador](https://gustavofirmino.github.io/Games/CodigoSecreto/web/)** — funciona no celular, dá para adicionar à tela de início e roda offline.
 
 > Novos jogos entram como uma nova pasta na raiz + uma linha nesta tabela.
 

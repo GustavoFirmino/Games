@@ -1,0 +1,120 @@
+{
+  "packs": [
+    {
+      "id": "padrao",
+      "name": "Padrão",
+      "emoji": "🎯",
+      "words": [
+        "Cachorro", "Gato", "Leão", "Tigre", "Elefante", "Girafa", "Zebra", "Macaco",
+        "Urso", "Lobo", "Raposa", "Coelho", "Rato", "Morcego", "Cavalo", "Vaca",
+        "Porco", "Ovelha", "Cabra", "Galinha", "Pato", "Ganso", "Pombo", "Águia",
+        "Coruja", "Falcão", "Pinguim", "Papagaio", "Tucano", "Beija-flor", "Cobra",
+        "Lagarto", "Jacaré", "Tartaruga", "Sapo", "Peixe", "Tubarão", "Baleia",
+        "Golfinho", "Polvo", "Caranguejo", "Camarão", "Aranha", "Formiga", "Abelha",
+        "Borboleta", "Mosquito", "Escorpião", "Minhoca", "Caracol", "Camelo",
+        "Rinoceronte", "Hipopótamo", "Canguru", "Panda", "Foca", "Lontra", "Esquilo",
+        "Ouriço", "Veado",
+
+        "Cadeira", "Mesa", "Sofá", "Cama", "Armário", "Espelho", "Janela", "Porta",
+        "Escada", "Telhado", "Chave", "Fechadura", "Martelo", "Prego", "Serra",
+        "Parafuso", "Escova", "Pente", "Toalha", "Sabonete", "Vassoura", "Balde",
+        "Panela", "Garfo", "Faca", "Colher", "Prato", "Copo", "Xícara", "Garrafa",
+        "Caneca", "Bandeja", "Guardanapo", "Relógio", "Lâmpada", "Vela", "Lanterna",
+        "Tesoura", "Agulha", "Linha", "Botão", "Zíper", "Mochila", "Mala", "Carteira",
+        "Óculos", "Chapéu", "Luva", "Cachecol", "Guarda-chuva", "Leque", "Corda",
+        "Rede", "Âncora", "Bússola", "Mapa", "Telescópio", "Microscópio", "Binóculo",
+        "Cofre",
+
+        "Praia", "Montanha", "Deserto", "Floresta", "Ilha", "Vulcão", "Caverna",
+        "Rio", "Lago", "Cachoeira", "Oceano", "Pântano", "Campo", "Fazenda", "Cidade",
+        "Vila", "Bairro", "Praça", "Parque", "Jardim", "Estádio", "Teatro", "Museu",
+        "Biblioteca", "Escola", "Hospital", "Igreja", "Castelo", "Palácio", "Torre",
+        "Ponte", "Túnel", "Farol", "Porto", "Aeroporto", "Estação", "Mercado",
+        "Padaria", "Restaurante", "Hotel", "Prisão", "Fábrica", "Mina", "Cemitério",
+        "Labirinto",
+
+        "Médico", "Enfermeiro", "Professor", "Advogado", "Juiz", "Policial",
+        "Bombeiro", "Soldado", "Piloto", "Marinheiro", "Pescador", "Agricultor",
+        "Padeiro", "Açougueiro", "Cozinheiro", "Garçom", "Barbeiro", "Costureira",
+        "Pedreiro", "Carpinteiro", "Eletricista", "Encanador", "Mecânico",
+        "Motorista", "Carteiro", "Jornalista", "Escritor", "Pintor", "Escultor",
+        "Músico", "Ator", "Palhaço", "Mágico", "Detetive", "Astronauta", "Cientista",
+        "Engenheiro", "Arquiteto", "Dentista", "Veterinário",
+
+        "Pão", "Queijo", "Manteiga", "Leite", "Ovo", "Arroz", "Feijão", "Macarrão",
+        "Pizza", "Bolo", "Biscoito", "Chocolate", "Sorvete", "Mel", "Açúcar", "Sal",
+        "Pimenta", "Alho", "Cebola", "Tomate", "Batata", "Cenoura", "Alface",
+        "Abóbora", "Milho", "Maçã", "Banana", "Laranja", "Limão", "Uva", "Melancia",
+        "Abacaxi", "Morango", "Manga", "Coco", "Café", "Chá", "Suco", "Vinho",
+        "Cerveja",
+
+        "Sol", "Lua", "Estrela", "Planeta", "Cometa", "Galáxia", "Eclipse", "Nuvem",
+        "Chuva", "Neve", "Gelo", "Trovão", "Relâmpago", "Arco-íris", "Vento",
+        "Furacão", "Terremoto", "Maré", "Areia", "Pedra", "Cristal", "Diamante",
+        "Ouro", "Prata", "Ferro", "Carvão", "Petróleo", "Fogo", "Fumaça", "Cinza",
+        "Raiz", "Tronco", "Folha", "Flor", "Semente", "Espinho", "Cogumelo", "Musgo",
+        "Cacto", "Orvalho",
+
+        "Amor", "Ódio", "Medo", "Coragem", "Sorte", "Destino", "Tempo", "Memória",
+        "Sonho", "Pesadelo", "Silêncio", "Ruído", "Verdade", "Mentira", "Segredo",
+        "Mistério", "Justiça", "Liberdade", "Poder", "Riqueza", "Pobreza", "Fome",
+        "Sede", "Dor", "Prazer", "Saudade", "Ciúme", "Inveja", "Orgulho", "Vergonha",
+        "Culpa", "Perdão", "Fé", "Dúvida", "Esperança", "Paciência", "Pressa",
+        "Ordem", "Caos", "Paz", "Guerra", "Vitória", "Derrota", "Risco", "Aposta",
+        "Regra", "Limite", "Origem", "Ideia", "Razão", "Instinto", "Hábito",
+        "Rotina", "Surpresa",
+
+        "Livro", "Revista", "Jornal", "Carta", "Poema", "Música", "Dança", "Canção",
+        "Violão", "Piano", "Tambor", "Flauta", "Trompete", "Violino", "Filme",
+        "Câmera", "Palco", "Máscara", "Fantasia", "Circo", "Truque", "Jogo",
+        "Xadrez", "Dado", "Baralho", "Bola", "Raquete", "Gol", "Corrida", "Maratona",
+        "Medalha", "Troféu", "Bandeira", "Coroa", "Trono", "Espada", "Escudo",
+        "Arco", "Flecha", "Canhão", "Foguete", "Robô", "Computador", "Teclado",
+        "Tela", "Antena", "Satélite", "Sino", "Moeda", "Selo",
+
+        "Carro", "Ônibus", "Trem", "Metrô", "Bicicleta", "Moto", "Caminhão", "Navio",
+        "Barco", "Submarino", "Avião", "Helicóptero", "Balão", "Patins", "Trenó",
+        "Cabeça", "Olho", "Orelha", "Nariz", "Boca", "Dente", "Língua", "Braço",
+        "Mão", "Dedo", "Perna", "Coração", "Cérebro", "Osso", "Sangue", "Pele",
+        "Cabelo", "Sombra", "Voz", "Fantasma", "Bruxa", "Dragão", "Gigante", "Anão",
+        "Sereia", "Vampiro", "Múmia", "Anjo", "Deus", "Herói", "Vilão", "Rei",
+        "Rainha", "Princesa", "Cavaleiro", "Pirata", "Ninja", "Espião", "Ladrão",
+        "Refém"
+      ]
+    },
+    {
+      "id": "cinema",
+      "name": "Cinema & TV",
+      "emoji": "🎬",
+      "words": [
+        "Roteiro", "Diretor", "Elenco", "Figurino", "Trilha", "Legenda", "Dublagem",
+        "Cena", "Take", "Claquete", "Estúdio", "Bastidor", "Estreia", "Bilheteria",
+        "Oscar", "Roteirista", "Câmera lenta", "Plot twist", "Sequência", "Prequela",
+        "Trailer", "Documentário", "Suspense", "Terror", "Comédia", "Drama",
+        "Faroeste", "Musical", "Animação", "Ficção", "Herói", "Vilão", "Coadjuvante",
+        "Protagonista", "Narrador", "Flashback", "Maratona", "Streaming", "Episódio",
+        "Temporada", "Piloto", "Final", "Reboot", "Spin-off", "Cameo", "Dublê",
+        "Efeito", "Maquiagem", "Cenário", "Iluminação", "Microfone", "Tapete vermelho",
+        "Pipoca", "Poltrona", "Ingresso", "Cinema", "Tela grande", "Crítica",
+        "Nota", "Fandom"
+      ]
+    },
+    {
+      "id": "brasil",
+      "name": "Brasil",
+      "emoji": "🇧🇷",
+      "words": [
+        "Carnaval", "Samba", "Forró", "Frevo", "Maracatu", "Capoeira", "Feijoada",
+        "Brigadeiro", "Pão de queijo", "Açaí", "Caipirinha", "Guaraná", "Churrasco",
+        "Farofa", "Tapioca", "Coxinha", "Amazônia", "Pantanal", "Cerrado",
+        "Caatinga", "Sertão", "Chapada", "Iguaçu", "Copacabana", "Ipanema",
+        "Pelourinho", "Cristo", "Pão de Açúcar", "Bonde", "Favela", "Boteco",
+        "Fusca", "Kombi", "Chinelo", "Rede de dormir", "Jabuticaba", "Caju",
+        "Goiaba", "Maracujá", "Cupuaçu", "Onça", "Arara", "Tatu", "Capivara",
+        "Boto", "Tamanduá", "Preguiça", "Mico", "Saci", "Curupira", "Iara",
+        "Boitatá", "Cuca", "Bumba meu boi", "Junina", "Fogueira", "Pipa",
+        "Peteca", "Botão", "Várzea"
+      ]
+    }
+  ]
+}

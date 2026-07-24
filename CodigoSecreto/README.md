@@ -56,7 +56,28 @@ conforme a fase do turno:
 
 ---
 
-## 🚀 Como rodar
+## ▶️ Jogar agora (web)
+
+**[gustavofirmino.github.io/Games/CodigoSecreto/web](https://gustavofirmino.github.io/Games/CodigoSecreto/web/)**
+
+Existem **duas versões do mesmo jogo**, com a mesma lógica e o mesmo banco de palavras:
+
+| | Web (PWA) | Nativo (SwiftUI) |
+|---|---|---|
+| Onde roda | qualquer navegador | iPhone / iPad |
+| Instalar | *Compartilhar → Adicionar à Tela de Início* | precisa de Mac ou conta Apple paga |
+| Offline | sim (service worker) | sim |
+| Custo | zero | $99/ano ou um Mac |
+
+No iPhone: abra o link no **Safari**, toque em **Compartilhar → Adicionar à Tela de Início**.
+Vira um ícone normal, abre em tela cheia sem barra de navegador e funciona sem internet
+depois do primeiro acesso. O placar fica salvo entre sessões.
+
+A versão web vive em [`web/`](./web) e é HTML/CSS/JS puro — sem build, sem dependências.
+
+---
+
+## 🚀 Como rodar o app nativo
 
 O projeto exige **iOS 17+** no aparelho e **Xcode 16+** para compilar — e Xcode só
 existe no macOS. Eu desenvolvo no Windows, então o build oficial acontece no CI:
