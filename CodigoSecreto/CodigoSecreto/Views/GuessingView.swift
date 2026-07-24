@@ -4,7 +4,10 @@ import SwiftUI
 struct GuessingView: View {
     @ObservedObject var viewModel: GameViewModel
 
-    @Environment(\.isRoomyLayout) private var isRoomy
+    @Environment(\.horizontalSizeClass) private var sizeClass
+
+    /// Layout mais espaçoso no iPad (e no iPhone Max em landscape).
+    private var isRoomy: Bool { sizeClass == .regular }
 
     private var team: Team { viewModel.currentTeam }
 

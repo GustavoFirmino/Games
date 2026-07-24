@@ -5,7 +5,10 @@ struct ContentView: View {
     @StateObject private var viewModel = GameViewModel()
     @State private var showsSettings = false
 
-    @Environment(\.isRoomyLayout) private var isRoomy
+    @Environment(\.horizontalSizeClass) private var sizeClass
+
+    /// Layout mais espaçoso no iPad (e no iPhone Max em landscape).
+    private var isRoomy: Bool { sizeClass == .regular }
 
     var body: some View {
         ZStack {

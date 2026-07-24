@@ -7,7 +7,10 @@ struct BoardView: View {
     let isInteractive: Bool
     let onTapCard: (Card) -> Void
 
-    @Environment(\.isRoomyLayout) private var isRoomy
+    @Environment(\.horizontalSizeClass) private var sizeClass
+
+    /// Layout mais espaçoso no iPad (e no iPhone Max em landscape).
+    private var isRoomy: Bool { sizeClass == .regular }
 
     private var columns: [GridItem] {
         Array(
