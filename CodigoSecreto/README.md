@@ -58,18 +58,33 @@ conforme a fase do turno:
 
 ## 🚀 Como rodar
 
-**Requisitos:** macOS com **Xcode 16+**, iPhone/iPad com **iOS 17+**.
+O projeto exige **iOS 17+** no aparelho e **Xcode 16+** para compilar — e Xcode só
+existe no macOS. Eu desenvolvo no Windows, então o build oficial acontece no CI:
+o workflow [`codigo-secreto.yml`](../.github/workflows/codigo-secreto.yml) compila num
+runner macOS a cada push (grátis, por ser repo público) e publica um `.ipa` sem
+assinatura como artefato.
+
+### Se você tem um Mac
 
 1. Abra `CodigoSecreto.xcodeproj` no Xcode.
-2. Em **Signing & Capabilities**, selecione o seu *Team* (conta de desenvolvedor
-   pessoal já serve) e troque o **Bundle Identifier** para algo único seu
-   (ex.: `com.seunome.CodigoSecreto`).
-3. Conecte o iPhone/iPad por cabo, selecione o dispositivo no topo do Xcode e dê **⌘R**.
-4. Na primeira execução: *Ajustes → Geral → VPN e Gerenciamento de Dispositivo* no
-   iPhone, e confie no seu certificado de desenvolvedor.
+2. Em **Signing & Capabilities**, selecione o seu *Team* e troque o
+   **Bundle Identifier** para algo único (ex.: `com.seunome.CodigoSecreto`).
+3. Conecte o iPhone/iPad por cabo, selecione o dispositivo no topo e dê **⌘R**.
+4. No iPhone: *Ajustes → Geral → VPN e Gerenciamento de Dispositivo* → confie no
+   seu certificado.
 
-> Com conta gratuita da Apple, o app expira em 7 dias e precisa ser reinstalado.
-> Com o Apple Developer Program pago, vale 1 ano.
+### Se você só tem Windows
+
+1. Baixe o `.ipa` na aba **Actions** do repositório (artefato
+   `CodigoSecreto-unsigned-ipa` do build mais recente).
+2. Instale com uma ferramenta de sideload (AltStore, SideStore ou similar), que
+   reassina o `.ipa` com o seu Apple ID a partir do PC.
+3. No iPhone: *Ajustes → Geral → VPN e Gerenciamento de Dispositivo* → confie no
+   certificado.
+
+> Com Apple ID gratuito o app expira em **7 dias** e precisa ser reinstalado/renovado
+> (o limite é de 3 apps sideloadados). Com o Apple Developer Program pago, vale 1 ano —
+> e aí o caminho mais confortável é publicar no **TestFlight** direto do CI.
 
 ---
 
